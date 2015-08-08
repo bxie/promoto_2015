@@ -20,8 +20,9 @@
 %-----------------------------------------------------------------------------
 
 
-\documentclass{sigplanconf}
+%\documentclass{sigplanconf}
 %\documentclass[preprint]{sigplanconf}
+\documentclass[nocopyrightspace]{sigplanconf}
 
 
 % The following \documentclass options may be useful:
@@ -49,9 +50,9 @@
 \renewcommand{\textfraction}{0.15}
 \renewcommand{\floatpagefraction}{0.8}
 \renewcommand{\textfraction}{0.1}
-\setlength{\floatsep}{5pt plus 2pt minus 2pt}
-\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
-\setlength{\intextsep}{5pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
 
 
 %\usepackage[numbers]{natbib}
@@ -93,7 +94,7 @@
 \maketitle
 
 \begin{abstract}
-MIT App Inventor is a web service that enables users with little to no previous programming experience to create mobile applications using a visual blocks language. We analyze a sample of 5,228 random projects from the corpus of 9.7 million and group projects by functionality. We then use the number of unique blocks in projects as a metric to better understand the usability and realized capability of using App Inventor to implement specific functionalities. We introduce the notion of a usability score and our results indicate that introductory tutorials heavily influence the usability of App Inventor to implement particular functionalities. Our findings suggest that the sequential nature of App Inventor's learning resources results in users realizing only a portion of App Inventor's capabilities and propose improvements to these learning resources that are  transferable to other programming environments or tools with an online presence.
+MIT App Inventor is a web service that enables users with little to no previous programming experience to create mobile applications using a visual blocks language. We analyze a sample of 5,228 random projects from the corpus of 9.7 million and group projects by functionality. We then use the number of unique blocks in projects as a metric to better understand the usability and realized capability of using App Inventor to implement specific functionalities. We introduce the notion of a usability score and our results indicate that introductory tutorials heavily influence the usability of App Inventor to implement particular functionalities. Our findings suggest that the sequential nature of App Inventor's learning resources results in users realizing only a portion of App Inventor's capabilities and propose improvements to these learning resources that are transferable to other programming environments and tools.
 \end{abstract}
 
 %\category{CR-number}{subcategory}{third-level}
@@ -157,7 +158,7 @@ Our source data is 5,228 App Inventor 2 projects selected at random from the tot
 
 Of the 5,228 projects sampled:
 \begin{itemize}
-	\item At least 16.4\% (859 projects) are recreations of App Inventor tutorials. These recreations of the step-by-step tutorials were identified by matching project names. We considered only the 26 tutorials from the MIT App Inventor website, although many other tutorials made by other groups and individuals exist \cite{course_in_box}\cite{imagnity}. Projects that are recreations of these tutorials are filtered out of our dataset.
+	\item At least 16.4\% (859 projects) are recreations of App Inventor tutorials. These recreations of the step-by-step tutorials were identified by matching project names. We considered only the 26 tutorials from the MIT App Inventor website, although many other tutorials made by other groups and individuals exist \cite{course_in_box}\cite{imagnity}. Projects that are recreations of the tutorials found on the MIT App Inventor website are filtered out of our dataset.
 	\item 21\% (1,107 projects) are certainly static; that is, they are guaranteed to be apps that have no behavior and never change state. If a project has no components, then there is nothing the user can interact with or for the app to do, so the project must be static. For an app to be interactive and have behavior, in addition to at least one component, it must also have at least two blocks: One to handle an event and one to respond to that event. Figure 2 shows an example of a simple action from two blocks. No functionality can occur with fewer than two blocks. We say an app is certainly static if it either has no components or has fewer than two blocks.
 \end{itemize}
 
@@ -171,7 +172,7 @@ Of the 5,228 projects sampled:
 We choose to filter out the certainly static projects as well as projects that are recreations of tutorials, so our analysis was run over the remaining 3,289 projects. While we can guarantee that the removed projects are static, we cannot guarantee the remaining projects have behavior, as their blocks may not be connected in a manner that allows for any behavior. Further improvements to filtering apps are discussed in the conclusion. For the purpose of analysis, we assume the remaining 3,289 projects have behavior and are not recreations of tutorials.
 
 \subsection{Feature Extraction}
-We focused primarily on quantitative features for our analysis, particularly the number of each type of component in a project, and the number of each type of block. This information exists in the source code of the projects. 
+We focus primarily on quantitative features for our analysis, particularly the number of each type of component in a project, and the number of each type of block. This information exists in the source code of the projects. 
 
 Features Extracted from Projects:
 \begin{itemize}
@@ -193,9 +194,9 @@ We use the components within a project to group them by functionality. The palet
 
 We follow the palette drawers to define our groups, with two notable changes: Disregarding the entire "Layout" component drawer and the sound and clock components. 
 
-Layout components were removed because they do not add additional functionality and are therefore irrelevant for our groupings. These components only enable users to change the arrangement of an app's visual components. Our emphasis is to group projects by their functionality, not their appearance or design.
+Layout components are removed because they do not add additional functionality and are therefore irrelevant for our groupings. These components only enable users to change the arrangement of an app's visual components. Our emphasis is to group projects by their functionality, not their appearance or design.
 
-The sound and clock components were removed to improve the differentiation between functionality groups. The sound component plays a sound whenever the user specifies. Examples include playing a "meow" when an image of a cat is pressed and playing a famous speech in a historical quiz app. The clock component enables apps to keep track of time. Uses for this vary from keeping time in a stopwatch app to periodically moving a sprite in a game app. Because the sound and clock components have such broad uses, they do not help differentiate apps' behaviors between groups and are also excluded in the consideration of functionality groups.
+The sound and clock components are removed to improve the differentiation between functionality groups. The sound component plays a sound whenever the user specifies. Examples include playing a "meow" when an image of a cat is pressed and playing a famous speech in a historical quiz app. The clock component enables apps to keep track of time. Uses for this vary from keeping time in a stopwatch app to periodically moving a sprite in a game app. Because the sound and clock components have such broad uses, they do not help differentiate apps' behaviors between groups and are also excluded in the consideration of functionality groups.
 
 We categorize the 3,289 apps into eight groups. Basic apps only contain User Interface components. Apps in the Media, Drawing, Sensor, Social, Storage, Connectivity, and Lego groups contain at least one component from that respective drawer in the palette. This categorization allows for overlap, as projects that contain components from multiple palette drawers are placed in multiple groups. For example, a project that uses both Bluetooth (connectivity) and Twitter (social) components would be grouped as both a Connectivity and Social app. The exception is the Lego group, which we deem to be an exclusive group because of the specificity of the components. Lego components are solely for integration with Lego Mindstorms \cite{lego}; if a project contains a Lego component, it is only grouped as Lego, regardless of other components it may contain. 
 
@@ -216,7 +217,7 @@ Reiterating, Basic and Lego groups are disjoint from other groups and each other
 Group Name &  Description of App Functionality \{Example App\} & Condition & Example Components\\
 \hline
 \hline
-Basic & Only basic user interface components \{Splits bill amongst certain number of people\} 
+Basic & Basic user interface functionality \{Splits bill amongst certain number of people\} 
  &Only User Interface Components & Button, Image, Label, Notifier, Textbox \\
 \hline
 
@@ -292,7 +293,7 @@ Based on the distribution of projects into groups we observe, we hypothesize a c
 \end{figure}
 
 \subsection{Number of Unique Blocks}
-We plot the distribution of the NOUB in each group and compare these subsets of projects to each other and to the entire set of projects. Figure 5 and Table 3 show the NOUB for projects within each group, as well as the distribution for all projects ("All" in Figure 5). 
+We plot the distribution of the NOUB in each group and compare these subsets of projects to each other and to the entire set of projects. Figure 5 and Table 2 show the NOUB for projects within each group, as well as the distribution for all projects ("All" in Figure 5). 
 
 Each subset and the entire set of projects exhibits a positive skew, suggesting that each group contains a few outlier projects that have a significantly greater NOUB and are likely well-developed apps.
 
@@ -436,14 +437,14 @@ Apps in the Basic group have the highest usability score and are therefore the e
 \subsection{Capability}
 We focus our discussion on realized capability, or the maximum potential of App Inventor that users actually reach. We are not referring to the "true" capability of App Inventor, the capability that is technically possible but in practice almost never implemented by users. 
 
-To assess the realized capabilities for App inventor to create apps of certain functionalities, we are interested in the projects in each group that have the greatest intricacy (greatest NOUB). It is these projects that best reflect the capability of App Inventor to accomplish certain functionality. We choose to look at the the maximum NOUB in each group excluding outlier projects. This (non-outlier) maximum is the end of the upper whiskers in Figure 5 and also shown in Table 3. We argue that these apps best represent the capability realized by App Inventor users.
+To assess the realized capabilities for App inventor to create apps of certain functionalities, we are interested in the projects in each group that have the greatest intricacy (greatest NOUB). It is these projects that best reflect the capability of App Inventor to accomplish certain functionality. We choose to look at the the maximum NOUB in each group excluding outlier projects. This (non-outlier) maximum is the end of the upper whiskers in Figure 5 and also shown in Table 2. We argue that these apps best represent the capability realized by App Inventor users.
 
 A greater maximum NOUB correlates with the ability to use App Inventor to create apps that have more advanced functionality. Having the least capability are Lego apps, with the narrowest distribution and lowest maximum NOUB. On the highest end of the spectrum are Storage apps which leverage databases or tables to persist data.
 
 We see that apps with the greatest capability tend to connect and extend the app to other functionality on a mobile device or with the web. Storage and connectivity apps have the greatest maximum NOUB so we say these groups have the greatest realized capability. Storage apps connect to some form of data persistence (database, table, file). Connectivity apps connect with other apps on the phone, utilize Bluetooth, and connect with the web APIs. What is interesting is that Social apps connect to other features in the phone (contact list, texting, etc.) or with social media such as Twitter, yet their realized capabilities are lower. This could be a result of a lack of learning resources relating to this particular functionality limiting the known capability of the group, which we discuss next. In general though, we see that the apps with the most realized capability tend to connect to the web and other apps and services. This opportunity for extensibility while maintaining the scaffolding that is the App Inventor environment is critical to an environment that fosters computational thinking \cite{checklist:repenning}.
 
 \subsection{Relation to Learning Resources}
-The close correlation between usability scores and the order of App Inventor tutorials suggests that users build apps based on knowledge from the tutorials that they complete. On the App Inventor website, tutorials are displayed as a list in sequential order, starting with Beginner tutorials and ending with Advanced tutorials. Table 4 shows the number of projects that were found to be tutorial recreations as well as the number of tutorials for each group.
+The close correlation between usability scores and the order of App Inventor tutorials suggests that users build apps based on knowledge from the tutorials that they complete. On the App Inventor website, tutorials are displayed as a list in sequential order, starting with Beginner tutorials and ending with Advanced tutorials (Figure 8). Table 3 shows the number of projects that were found to be tutorial recreations as well as the number of tutorials for each group.
 
 \begin{figure}[!htb]
 	\centering
@@ -511,9 +512,9 @@ This correlation between the number of tutorial recreations and the usability sc
 To better prepare users to create apps with more diverse functionality, we propose changes to the App Inventor learning resources to ensure tutorials are more accessible and contain more transferrable knowledge. We consider the following changes to App Inventor tutorials:
 
 \begin{itemize}
-	\item Avoid Pre-defined Paths for Tutorials: As of now, App Inventor tutorials exist as a list where tutorials often do not build off of knowledge from previous ones. So, we suggest that tutorials be offered in such a way that users do not feel obligated to follow an unnecessary predefined "path" when recreating tutorials. Instead, users should be more inclined to select tutorials relevant to their interests.
+	\item Avoid Pre-Defined Paths for Tutorials: As of now, App Inventor tutorials exist as a list where tutorials often do not build off of knowledge from previous ones. So, we suggest that tutorials be offered in such a way that users do not feel obligated to follow an unnecessary predefined "path" when recreating tutorials. Instead, users should be more inclined to select tutorials relevant to their interests.
 	\item Organizing Learning Resources: Because learning resources tend to be separate from each other on the MIT App Inventor website, users may not know where to go when they encounter a problem, or they may not even know given resources exist. For example, concept cards, which explain specific concepts and do not teach the creation of full apps, can serve as quick references for users \cite{concept_cards}. They are placed with the teaching resources on the App Inventor website, entirely separate from tutorials. Ensuring that users have a centralized and organized point to access resources would better support users.
-	\item Modularize Tutorials to Focus on Functionality: App Inventor tutorials focus on how to develop a functioning app. The need we find on the forums is help on how to accomplish a specific functionality, such as persisting a high score in a game or sharing data across multiple screens \cite{ai:Forum}. Having a 5-10 minute tutorial on "How to use Lists" rather than an hour tutorial that records a list of addresses and views them on Google Maps ("Map It: Displaying Locations on a Google Map," the only tutorial with lists), enables users to succinctly learn the specific functionality they are in question about.
+	\item Modularize Tutorials to Focus on Functionality: App Inventor tutorials focus on how to develop a functioning app. The need we find on the forums is help on how to accomplish specific functionalities, such as persisting a high score in a game or sharing data across multiple screens \cite{ai:Forum}. Having a 5-10 minute tutorial on "How to use Lists" rather than an hour tutorial that records a list of addresses and views them on Google Maps ("Map It: Displaying Locations on a Google Map," the only tutorial with lists), enables users to succinctly learn the specific functionality they are in question about.
 	\item Leverage the Community Gallery: The App Inventor gallery is a recent addition to App Inventor which enables users to share their projects and "remix" and build off of projects other users shared \cite{ai:Gallery}. With this, App Inventor learning resources no longer need to show the creation of apps from blank, completely new projects. Instead, they can look to well-built apps shared by the community and highlight ones that other users can learn from and build off of.
 	\item Adaptive Tutorials: Suggested in a similar context by \cite{TouchDevelop:Li}, an adaptive tutoring system would recommend resources relevant to what the user is creating and avoid concepts already learned or implemented. This would enable users to monitor their own progress and give them a more holistic perspective of the functionalities offered with App Inventor environment.
 \end{itemize}
