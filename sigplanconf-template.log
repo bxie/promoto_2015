@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 AUG 2015 03:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 AUG 2015 05:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -770,38 +770,6 @@ Underfull \vbox (badness 1270) has occurred while \output is active []
 
 ! Undefined control sequence.
 l.551 \newblock URL \url
-                        {http://www.appinventor.org/content/CourseInABox/Int...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--554
-[]\OT1/ptm/m/n/8 Course in a box.  URL 
- []
-
-! Undefined control sequence.
-l.557 \newblock URL \url
-                        {http://www.imagnity.com/tutorial-index}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.563 \newblock URL \url
-                        {http://scratch.mit.edu}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.568 \newblock URL \url
                         {http://appinventor.mit.edu/explore}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -810,35 +778,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.573 \newblock URL \url
-                        {http://appinventor.mit.edu/explore/ai2/tutorialsd41...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--575
-[]\OT1/ptm/m/n/8 Tutorials for app in-ven-tor 2, 2015.  URL 
- []
-
-! Undefined control sequence.
-l.580   \url
-            {http://appinventor.mit.edu/explore/resources/beginner-app-inven...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1838) in paragraph at lines 577--582
-[]\OT1/ptm/m/n/8 M. A. In-ven-tor.  App in-ven-tor con-cept cards.  URL 
- []
-
-! Undefined control sequence.
-l.585 \newblock URL \url
+l.556 \newblock URL \url
                         {https://developers.google.com/blockly/}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -847,129 +787,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.590 \newblock URL \url
-                        {http://pandas.pydata.org/}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.596   \url
-            {https://groups.google.com/forum/#!categories
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.596   \url{https://groups.google.com/forum/#
-                                              !categories
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--599
-[]\OT1/ptm/m/n/8 Mit app in-ven-tor dis-cus-sion fo-rum, 2015. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--599
-\OT1/ptm/m/n/8 URL https://groups.google.com/forum/!categories 
- []
-
-! Undefined control sequence.
-l.603   \url
-            {http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--605
-[]\OT1/ptm/m/n/8 Mit app in-ven-tor blog, 2015.  URL 
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 601--605
-\OT1/ptm/m/n/8 http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html. 
- []
-
-! Undefined control sequence.
-l.622   \url
-            {http://www.lego.com/en-us/mindstorms/?domainredir=mindstorms.le...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 620--623
-[]\OT1/ptm/m/n/8 Lego Group.  URL http://www.lego.com/en- 
- []
-
-! Undefined control sequence.
-l.647 \newblock URL \url
-                        {http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poste...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 645--650
-[]\OT1/ptm/m/n/8 Johanna Ok-er-lund and Franklyn Tur-bak.  A pre-lim-i-nary 
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 645--650
-\OT1/ptm/m/n/8 anal-y-sis of app in-ven-tor blocks pro-grams, 2013.  URL 
- []
-
-[7]
-! Undefined control sequence.
-l.678   \url
-            {https://nsfmobilect.files.wordpress.com/2014/09/mobile-ct-rubri...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 674--679
-[]\OT1/ptm/m/n/8 Mark Sher-man, Fred Mar-tin, Larry Bald-win, and James 
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 674--679
-\OT1/ptm/m/n/8 De-Flippo.  App in-ven-tor project rubric - com-pu- 
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 674--679
-\OT1/ptm/m/n/8 ta-tional think-ing through mo-bile com-put-ing.  URL 
- []
-
-! Undefined control sequence.
-l.683 \newblock URL \url
-                        {http://cs.wellesley.edu/~tinkerblocks/RIC14-talk.pdf}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.693 \newblock URL \url
+l.565 \newblock URL \url
                         {http://dx.doi.org/10.1109/vlhcc.2014.6883034}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -978,7 +796,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.703 \newblock URL \url
+l.571 \newblock URL \url
+                        {http://cs.wellesley.edu/~tinkerblocks/RIC14-talk.pdf}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.581 \newblock URL \url
                         {http://dx.doi.org/10.1145/2721914.2721935}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -987,9 +814,182 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 698--705
+Underfull \hbox (badness 1360) in paragraph at lines 576--583
 \OT1/ptm/m/n/8 moc-ra-tiz-ing com-put-ing with app in-ven-tor.  \OT1/ptm/m/it/8
  SIG-MO-BILE 
+ []
+
+! Undefined control sequence.
+l.592 \newblock URL \url
+                        {http://appinventor.mit.edu/explore/ai2/tutorialsd41...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--594
+[]\OT1/ptm/m/n/8 Tutorials for app in-ven-tor 2, 2015.  URL 
+ []
+
+! Undefined control sequence.
+l.604 \newblock URL \url
+                        {http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poste...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 602--607
+[]\OT1/ptm/m/n/8 Johanna Ok-er-lund and Franklyn Tur-bak.  A pre-lim-i-nary 
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 602--607
+\OT1/ptm/m/n/8 anal-y-sis of app in-ven-tor blocks pro-grams, 2013.  URL 
+ []
+
+! Undefined control sequence.
+l.610 \newblock URL \url
+                        {http://scratch.mit.edu}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.636 \newblock URL \url
+                        {http://pandas.pydata.org/}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.641 \newblock URL \url
+                        {http://www.appinventor.org/content/CourseInABox/Int...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--644
+[]\OT1/ptm/m/n/8 Course in a box.  URL 
+ []
+
+[7]
+! Undefined control sequence.
+l.647 \newblock URL \url
+                        {http://www.imagnity.com/tutorial-index}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.654   \url
+            {http://www.lego.com/en-us/mindstorms/?domainredir=mindstorms.le...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--655
+[]\OT1/ptm/m/n/8 Lego Group.  URL http://www.lego.com/en- 
+ []
+
+! Undefined control sequence.
+l.661   \url
+            {https://nsfmobilect.files.wordpress.com/2014/09/mobile-ct-rubri...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 657--662
+[]\OT1/ptm/m/n/8 Mark Sher-man, Fred Mar-tin, Larry Bald-win, and James 
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 657--662
+\OT1/ptm/m/n/8 De-Flippo.  App in-ven-tor project rubric - com-pu- 
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 657--662
+\OT1/ptm/m/n/8 ta-tional think-ing through mo-bile com-put-ing.  URL 
+ []
+
+! Undefined control sequence.
+l.680   \url
+            {http://appinventor.mit.edu/explore/resources/beginner-app-inven...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 677--682
+[]\OT1/ptm/m/n/8 M. A. In-ven-tor.  App in-ven-tor con-cept cards.  URL 
+ []
+
+! Undefined control sequence.
+l.686   \url
+            {https://groups.google.com/forum/#!categories
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.686   \url{https://groups.google.com/forum/#
+                                              !categories
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--689
+[]\OT1/ptm/m/n/8 Mit app in-ven-tor dis-cus-sion fo-rum, 2015. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--689
+\OT1/ptm/m/n/8 URL https://groups.google.com/forum/!categories 
+ []
+
+! Undefined control sequence.
+l.693   \url
+            {http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--695
+[]\OT1/ptm/m/n/8 Mit app in-ven-tor blog, 2015.  URL 
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 691--695
+\OT1/ptm/m/n/8 http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html. 
  []
 
 [8
@@ -1002,7 +1002,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  2882 strings out of 493117
  38912 string characters out of 6135433
- 116197 words of memory out of 5000000
+ 115666 words of memory out of 5000000
  6292 multiletter control sequences out of 15000+600000
  25476 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
