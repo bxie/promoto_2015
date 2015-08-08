@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 AUG 2015 02:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 AUG 2015 03:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,16 +682,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./palette.png>]
-
-Package natbib Warning: Citation `Scratch: Fields' on page 4 undefined on input
- line 276.
-
-
-Package natbib Warning: Citation `Scratch:Scadiffi' on page 4 undefined on inpu
-t line 276.
-
-<pie_group.png, id=27, 813.0375pt x 685.56125pt>
+ [3 <./palette.png>] <pie_group.png, id=27, 813.0375pt x 685.56125pt>
 File: pie_group.png Graphic file (type png)
  <use pie_group.png>
 Package pdftex.def Info: pie_group.png used on input line 289.
@@ -773,10 +764,6 @@ Overfull \vbox (6.0pt too high) detected at line 484
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <5> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 484.
-
-Package natbib Warning: Citation `concept_cards' on page 6 undefined on input l
-ine 515.
-
 [6 <./ai_tutorials.png>]
 Underfull \vbox (badness 1270) has occurred while \output is active []
 
@@ -837,7 +824,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--575
  []
 
 ! Undefined control sequence.
-l.578 \newblock URL \url
+l.580   \url
+            {http://appinventor.mit.edu/explore/resources/beginner-app-inven...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 577--582
+[]\OT1/ptm/m/n/8 M. A. In-ven-tor.  App in-ven-tor con-cept cards.  URL 
+ []
+
+! Undefined control sequence.
+l.585 \newblock URL \url
                         {https://developers.google.com/blockly/}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -846,7 +847,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.583 \newblock URL \url
+l.590 \newblock URL \url
                         {http://pandas.pydata.org/}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -855,7 +856,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.589   \url
+l.596   \url
             {https://groups.google.com/forum/#!categories
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -864,7 +865,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.589   \url{https://groups.google.com/forum/#
+l.596   \url{https://groups.google.com/forum/#
                                               !categories
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -872,17 +873,17 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--592
+Underfull \hbox (badness 10000) in paragraph at lines 594--599
 []\OT1/ptm/m/n/8 Mit app in-ven-tor dis-cus-sion fo-rum, 2015. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--592
+Underfull \hbox (badness 10000) in paragraph at lines 594--599
 \OT1/ptm/m/n/8 URL https://groups.google.com/forum/!categories 
  []
 
 ! Undefined control sequence.
-l.596   \url
+l.603   \url
             {http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -891,17 +892,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--598
+Underfull \hbox (badness 10000) in paragraph at lines 601--605
 []\OT1/ptm/m/n/8 Mit app in-ven-tor blog, 2015.  URL 
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 594--598
+Underfull \hbox (badness 1052) in paragraph at lines 601--605
 \OT1/ptm/m/n/8 http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html. 
  []
 
 ! Undefined control sequence.
-l.615   \url
+l.622   \url
             {http://www.lego.com/en-us/mindstorms/?domainredir=mindstorms.le...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -910,12 +911,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--616
+Underfull \hbox (badness 10000) in paragraph at lines 620--623
 []\OT1/ptm/m/n/8 Lego Group.  URL http://www.lego.com/en- 
  []
 
 ! Undefined control sequence.
-l.640 \newblock URL \url
+l.647 \newblock URL \url
                         {http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poste...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -924,18 +925,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 638--643
+Underfull \hbox (badness 1215) in paragraph at lines 645--650
 []\OT1/ptm/m/n/8 Johanna Ok-er-lund and Franklyn Tur-bak.  A pre-lim-i-nary 
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 638--643
+Underfull \hbox (badness 1418) in paragraph at lines 645--650
 \OT1/ptm/m/n/8 anal-y-sis of app in-ven-tor blocks pro-grams, 2013.  URL 
  []
 
 [7]
 ! Undefined control sequence.
-l.671   \url
+l.678   \url
             {https://nsfmobilect.files.wordpress.com/2014/09/mobile-ct-rubri...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -944,22 +945,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 667--672
+Underfull \hbox (badness 1460) in paragraph at lines 674--679
 []\OT1/ptm/m/n/8 Mark Sher-man, Fred Mar-tin, Larry Bald-win, and James 
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 667--672
+Underfull \hbox (badness 4316) in paragraph at lines 674--679
 \OT1/ptm/m/n/8 De-Flippo.  App in-ven-tor project rubric - com-pu- 
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 667--672
+Underfull \hbox (badness 3724) in paragraph at lines 674--679
 \OT1/ptm/m/n/8 ta-tional think-ing through mo-bile com-put-ing.  URL 
  []
 
 ! Undefined control sequence.
-l.676 \newblock URL \url
+l.683 \newblock URL \url
                         {http://cs.wellesley.edu/~tinkerblocks/RIC14-talk.pdf}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -968,7 +969,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.686 \newblock URL \url
+l.693 \newblock URL \url
                         {http://dx.doi.org/10.1109/vlhcc.2014.6883034}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -977,7 +978,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.696 \newblock URL \url
+l.703 \newblock URL \url
                         {http://dx.doi.org/10.1145/2721914.2721935}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -986,13 +987,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 691--698
+Underfull \hbox (badness 1360) in paragraph at lines 698--705
 \OT1/ptm/m/n/8 moc-ra-tiz-ing com-put-ing with app in-ven-tor.  \OT1/ptm/m/it/8
  SIG-MO-BILE 
  []
-
-
-Package natbib Warning: There were undefined citations.
 
 [8
 
@@ -1003,8 +1001,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  2882 strings out of 493117
- 38899 string characters out of 6135433
- 116173 words of memory out of 5000000
+ 38912 string characters out of 6135433
+ 116197 words of memory out of 5000000
  6292 multiletter control sequences out of 15000+600000
  25476 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1020,7 +1018,7 @@ st/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on sigplanconf-template.pdf (8 pages, 456863 bytes).
+Output written on sigplanconf-template.pdf (8 pages, 456339 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
