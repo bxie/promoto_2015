@@ -37,10 +37,12 @@
 \usepackage{multirow}
 \usepackage{graphicx} %includegraphics
 \usepackage{float} %H option, figure spacing
+\usepackage{balance} %balance columns of last page...
 
 %copy pasta for float
 % http://tex.stackexchange.com/questions/77809/how-do-i-remove-white-space-before-or-after-the-figures-and-tables
 \begin{document}
+\toappear{} %leaves space for conference to add copyright stuff
 
 \setcounter{topnumber}{2}
 \setcounter{bottomnumber}{2}
@@ -85,7 +87,8 @@
 
 \authorinfo{Benjamin Xie\and Isra Shabir\and Hal Abelson}
            {Department of Electrical Engineering and Computer Science \\
-           Massachusetts Institute of Technology}
+           Massachusetts Institute of Technology \\
+           Cambridge, MA 02139, USA}
            {\{bxie, ishabir, hal\} @mit.edu }
 %\authorinfo{Name2\and Name3}
 %           {Affiliation2/3}
@@ -97,19 +100,18 @@
 MIT App Inventor is a web service that enables users with little to no previous programming experience to create mobile applications using a visual blocks language. We analyze a sample of 5,228 random projects from the corpus of 9.7 million and group projects by functionality. We then use the number of unique blocks in projects as a metric to better understand the usability and realized capability of using App Inventor to implement specific functionalities. We introduce the notion of a usability score and our results indicate that introductory tutorials heavily influence the usability of App Inventor to implement particular functionalities. Our findings suggest that the sequential nature of App Inventor's learning resources results in users realizing only a portion of App Inventor's capabilities and propose improvements to these learning resources that are transferable to other programming environments and tools.
 \end{abstract}
 
-%\category{CR-number}{subcategory}{third-level}
-
+\category{H.1.2}{User/Machine Systems}{Human factors}
 % general terms are not compulsory anymore, 
 % you may leave them out
-%\terms
-%term1, term2
+% \terms
+% term1, term2
 
 \keywords
-Mobile Computing, Computer Science Education, Qualitative Study, End-User Programming, Visual Languages
+Mobile Computing, Computer Science Education, Quantitative Study, End-User Programming, Visual Languages
 
 \section{Introduction}
 
-%MIT App Inventor is an environment that leverages a blocks-based visual programming language to enable people to create mobile apps for Android devices \cite{ai_home}. An App Inventor project consists of a set of components and a set of program blocks that enable the functionality of these components. Components include items visible on the phone screen (e.g. buttons, text boxes, images, drawing canvas) as well as non-visible items (e.g. camera, database, speech recognizer, GPS location sensor). The app is programmed using Blockly, a visual blocks-based programming framework \cite{blockly}. Figure 1 shows the program blocks for an app to discourage texting while driving. When a text is received, a default message is sent back in response and the received text is read aloud. 
+MIT App Inventor is an environment that leverages a blocks-based visual programming language to enable people to create mobile apps for Android devices \cite{ai_home}. An App Inventor project consists of a set of components and a set of program blocks that enable the functionality of these components. Components include items visible on the phone screen (e.g. buttons, text boxes, images, drawing canvas) as well as non-visible items (e.g. camera, database, speech recognizer, GPS location sensor). The app is programmed using Blockly, a visual blocks-based programming framework \cite{blockly}. Figure 1 shows the program blocks for an app to discourage texting while driving. When a text is received, a default message is sent back in response and the received text is read aloud. 
 
 \begin{figure}[!htb]
 	\centering
@@ -159,7 +161,7 @@ Our source data is 5,228 App Inventor 2 projects selected at random from the tot
 Of the 5,228 projects sampled:
 \begin{itemize}
 	\item At least 16.4\% (859 projects) are recreations of App Inventor tutorials. These recreations of the step-by-step tutorials were identified by matching project names. We considered only the 26 tutorials from the MIT App Inventor website, although many other tutorials made by other groups and individuals exist \cite{course_in_box}\cite{imagnity}. Projects that are recreations of the tutorials found on the MIT App Inventor website are filtered out of our dataset.
-	\item 21\% (1,107 projects) are certainly static; that is, they are guaranteed to be apps that have no behavior and never change state. If a project has no components, then there is nothing the user can interact with or for the app to do, so the project must be static. For an app to be interactive and have behavior, in addition to at least one component, it must also have at least two blocks: One to handle an event and one to respond to that event. Figure 2 shows an example of a simple action from two blocks. No functionality can occur with fewer than two blocks. We say an app is certainly static if it either has no components or has fewer than two blocks.
+	\item 21\% (1,107 projects) are \textit{certainly static}; that is, they are guaranteed to be apps that have no behavior and never change state. If a project has no components, then there is nothing the user can interact with or for the app to do, so the project must be static. For an app to be interactive and have behavior, in addition to at least one component, it must also have at least two blocks: One to handle an event and one to respond to that event. Figure 2 shows an example of a simple action from two blocks. No functionality can occur with fewer than two blocks. We say an app is certainly static if it either has no components or has fewer than two blocks.
 \end{itemize}
 
 \begin{figure}[!htb]
@@ -207,6 +209,8 @@ Reiterating, Basic and Lego groups are disjoint from other groups and each other
 \renewcommand{\arraystretch}{1.3}
 % if using array.sty, it might be a good idea to tweak the value of
 % \extrarowheight as needed to properly center the text within the cells
+\caption{Functionality Groupings}
+\label{table_groups}
 \begin{center}
 % Some packages, such as MDW tools, offer better commands for making tables
 % than the plain LaTeX2e tabular which is used here.
@@ -263,8 +267,8 @@ Lego
 
 \end{tabular}
 \end{center}
-\caption{Functionality Groupings}
-\label{table_groups}
+% \caption{Functionality Groupings}
+% \label{table_groups}
 \end{table}
 
 We use the components to group projects and the blocks to measure the intricacy of them.
@@ -319,6 +323,8 @@ Because 21.9\% of projects fit into multiple groups, one project can be represen
 % Some packages, such as MDW tools, offer better commands for making tables
 % than the plain LaTeX2e tabular which is used here.
 %\begin{tabular}{ c | c | | c | c}
+\caption{Summary Statistics for the Number of Unique Blocks by Group}
+\label{table_noub_stats}
 \begin{tabular}{| p{0.1\linewidth} | p{0.05\linewidth} | p{0.065\linewidth} | p{0.076\linewidth} | p{0.07\linewidth} | p{0.06\linewidth} | p{0.055\linewidth} | p{0.04\linewidth} | p{0.06\linewidth} | p{0.05\linewidth}|}
 %\begin{tabular}{| [ | c | c | c | c | c | c | c | c | c |}
 \hline
@@ -398,8 +404,6 @@ max (w/o outliers)&
 \hline
 
 \end{tabular}
-\caption{Summary Statistics for the Number of Unique Blocks by Group}
-\label{table_noub_stats}
 \end{table*}
 
 \section{Discussion}
@@ -423,7 +427,7 @@ Because the NOUB does not systematically vary according to the components used i
 Another metric used in previous research with blocks-based languages for measuring programmatic skill is the measuring the number of "control constructs" evident in a project \cite{measure:huff}. To measure the existence of control constructs in the context of App Inventor, we would specifically assess the number loops, lists, conditionals, procedures, and/or variables used in apps with different functionality. This metric was considered but we find that it is too dependent on the functionality of the app to be used. For example, Storage apps frequently utilize lists as temporary storage between the app and the database, whereas drawing apps typically involve a canvas for the user to draw on and rarely have a purpose for lists. Because our focus is on comparing different functionality groups, measuring the number of specific control constructs is not appropriate because different constructs lends themselves towards different functionalities.
 
 \subsection{Usability}
-We define a group to have high usability if it does not require many different blocks to create a simple project. If a group has high usability, we expect many projects to be categorized into that group. We define a "usability score" of a group as the number of projects in the group divided by the median number of unique blocks for that group. The results for the different groups are depicted in Figure 7. 
+We define a group to have high usability if it does not require many different blocks to create a simple project. If a group has high usability, we expect many projects to be categorized into that group. We define the \textit{usability score} of a group as the number of projects in the group divided by the median number of unique blocks for that group. The results for the different groups are depicted in Figure 7. 
 
 \begin{figure}[!htb]
 	\centering
@@ -461,6 +465,8 @@ Most users tend to start with the beginner tutorials, but the number of tutorial
 \renewcommand{\arraystretch}{1.5}
 % if using array.sty, it might be a good idea to tweak the value of
 % \extrarowheight as needed to properly center the text within the cells
+\caption{Number of Apps that are Tutorial Recreations \{Number of Tutorials\} by Functionality Group and Difficulty Level}
+\label{table_tutorial_group}
 \begin{center}
 % Some packages, such as MDW tools, offer better commands for making tables
 % than the plain LaTeX2e tabular which is used here.
@@ -502,8 +508,6 @@ Total\\
 \hline
 
 \end{tabular}
-\caption{Number of Apps that are Tutorial Recreations \{Number of Tutorials\} by Functionality Group and Difficulty Level}
-\label{table_tutorial_group}
 \end{center}
 \end{table}
 
@@ -521,9 +525,9 @@ To better prepare users to create apps with more diverse functionality, we propo
 
 \section{Conclusion}
 
-In this paper, we evaluate the usability (low floor) and capability (high ceiling) of App Inventor, a web-based environment that enables users to create mobile apps with a visual blocks based programming language. From our sample of 5,228 apps, we filtered out certainly static apps and apps that are recreations of our tutorials and grouped apps by similar functionality. We then measured the number of unique blocks for projects in each group and compared the groups. 
+In this paper, we evaluate the usability (low floor) and capability (high ceiling) of App Inventor, a web-based environment that enables users to create mobile apps with a visual blocks based programming language. From our sample of 5,228 apps, we filtered out certainly static apps and apps that are recreations of our tutorials and grouped the remaining apps by similar functionality. We then measured the number of unique blocks for projects in each group and compared the groups. 
 
-Our critical findings: (1) there exists a strong correlation between the usability and the number of tutorial recreations for a given functionality; (2) users tend to follow tutorials sequentially and therefore often do not complete more than beginner tutorials; (3) users tend to develop apps that are functionally similar to completed tutorials; (4) apps with the greatest realized capability tend to connect to other functionality on a mobile device or with the web (external databases, APIs, etc.). These findings suggest that the realized capabilities of App Inventor are limited by the provided learning resources. We provide a list of recommendations for improving these resources for end-users. These recommendations are not specific to the App Inventor environment and are transferable and applicable to other programming environments and tools that have online resources.
+Our critical findings: (1) There exists a strong correlation between the usability and the number of tutorial recreations for a given functionality group; (2) users tend to follow tutorials sequentially and therefore often do not complete more than beginner tutorials; (3) users tend to develop apps that are functionally similar to completed tutorials; (4) apps with the greatest realized capability tend to connect to other functionality on a mobile device or with the web (external databases, APIs, etc.). These findings suggest that the realized capabilities of App Inventor are limited by the provided learning resources. We provide a list of recommendations for improving these resources for end-users. These recommendations are not specific to the App Inventor environment and are transferable and applicable to other programming environments and tools that have online resources.
 
 The existence of non-functional projects and recreations of tutorials in our dataset offer opportunities for future work. While we filtered out projects that were certainly static by ensuring all projects had the minimum number of components and blocks, there still exist projects in our dataset that do not have any functionality. Disregarding blocks that are not connected to other blocks and components with no programmed functionality would better filter out the non-functional projects. And although we filter out projects that are recreations of tutorials by matching project names, a more robust method of identifying projects that are merely recreations would improve the dataset. We could also focus analysis on specific advanced structures more closely tied with computational thinking such as iterators and procedures, as defined by \cite{paper:sherman}. Finally, there is promise in analyzing user and temporal data, investigating how users and their apps develop over time.
 
@@ -534,7 +538,7 @@ The existence of non-functional projects and recreations of tutorials in our dat
 
 \acks
 
-We thank Jeffery Schiller (MIT App Inventor) for helping collect the data, Ilaria Liccardi (MIT) and Franklyn Turbak (Wellesley College) for helping guide the analysis, and Aubrey Colter (MIT App Inventor) for significantly helping proofread this paper. 
+We thank Jeffery Schiller (MIT App Inventor) for helping collect the data, Ilaria Liccardi (MIT) and Franklyn Turbak (Wellesley College) for helping guide the analysis, and Aubrey Colter (MIT App Inventor) and Nicole Zeinstra (MIT) for significantly helping proofread this paper. 
 
 This research is funded by the MIT EECS - Google Research and Innovation Scholarship as part of the 2014-15 MIT SuperUROP Program. 
 
@@ -548,7 +552,7 @@ This research is funded by the MIT EECS - Google Research and Innovation Scholar
 \softraggedright
 
 \bibitem[1]{ai_home}
-Mit app inventor | explore mit app inventor, 2015{\natexlab{a}}.
+MIT App Inventor | Explore MIT App Inventor, 2015{\natexlab{a}}.
 \newblock URL \url{http://appinventor.mit.edu/explore}.
 \newblock last accessed 14-May-2015.
 
@@ -559,7 +563,7 @@ Blockly, 2015.
 
 \bibitem[3]{naming:turbak}
 Franklyn Turbak, David Wolber, and Paul Medlock-Walton.
-\newblock The design of naming features in app inventor 2.
+\newblock The Design of Naming Features in App Inventor 2.
 \newblock \emph{2014 IEEE Symposium on Visual Languages and Human-Centric
   Computing (VL/HCC)}, 2014.
 \newblock \doi{10.1109/vlhcc.2014.6883034}.
@@ -568,14 +572,14 @@ Franklyn Turbak, David Wolber, and Paul Medlock-Walton.
 
 \bibitem[4]{thinking:turbak}
 Franklyn Turbak.
-\newblock Mobile computational thinking in appinventor 2, 2014.
+\newblock Mobile Computational Thinking in App Inventor 2, 2014.
 \newblock URL \url{http://cs.wellesley.edu/~tinkerblocks/RIC14-talk.pdf}.
 \newblock Slides of a talk given to {CSTA-RI},April 10, 2014, Rhode Island
   College, RI.
 
 \bibitem[5]{democratizing:wolber}
 David Wolber, Harold Abelson, and Mark Friedman.
-\newblock Democratizing computing with app inventor.
+\newblock Democratizing Computing with App Inventor.
 \newblock \emph{SIGMOBILE Mob. Comput. Commun. Rev.}, 18\penalty0 (4):\penalty0
   53--58, 2015.
 \newblock \doi{10.1145/2721914.2721935}.
@@ -584,24 +588,24 @@ David Wolber, Harold Abelson, and Mark Friedman.
 
 \bibitem[6]{situated:gershman}
 Anatole~V Gershman, Joseph~F McCarthy, and Andrew~E Fano.
-\newblock Situated computing: Bridging the gap between intention and action.
+\newblock Situated Computing: Bridging the Gap Between Intention and Action.
 \newblock In \emph{Wearable Computers, 1999. Digest of Papers. The Third
   International Symposium on}, pages 3--9. IEEE, 1999.
 
 \bibitem[7]{ai_tutorials}
-Tutorials for app inventor 2, 2015{\natexlab{b}}.
+Tutorials for App Inventor 2, 2015{\natexlab{b}}.
 \newblock URL \url{http://appinventor.mit.edu/explore/ai2/tutorialsd41d.html}.
 \newblock last accessed 14-May-2015.
 
 \bibitem[8]{CT:Grover}
 Shuchi Grover and Roy Pea.
-\newblock Computational thinking in k--12 a review of the state of the field.
+\newblock Computational Thinking in K-12 A Review of the State of the Field.
 \newblock \emph{Educational Researcher}, 42\penalty0 (1):\penalty0 38--43,
   2013.
 
 \bibitem[9]{blocks:okerlund}
 Johanna Okerlund and Franklyn Turbak.
-\newblock A preliminary analysis of app inventor blocks programs, 2013.
+\newblock A Preliminary Analysis of App Inventor Blocks Programs, 2013.
 \newblock URL \url{http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poster.pdf}.
 \newblock Poster presented at the IEEE Symposium on Visual Languages and
   Human-Centric Computing (VLHCC 2013), Sept 17, San Jose, CA.
@@ -613,38 +617,40 @@ Scratch, 2015.
 
 \bibitem[11]{Scratch:Fields}
 Deborah~A Fields, Michael Giang, and Yasmin Kafai.
-\newblock Programming in the wild: trends in youth computational participation
-  in the online scratch community.
+\newblock Programming in the Wild: Trends in Youth Computational Participation
+  in the Online Scratch Community.
 \newblock In \emph{Proceedings of the 9th workshop in primary and secondary
   computing education}, pages 2--11. ACM, 2014.
  
 \bibitem[12]{Scratch:Scaffidi}
 Christopher Scaffidi and Christopher Chambers.
-\newblock Skill progression demonstrated by users in the scratch animation
-  environment.
+\newblock Skill Progression Demonstrated by Users in the Scratch Animation
+  Environment.
 \newblock \emph{International Journal of Human-Computer Interaction},
   28\penalty0 (6):\penalty0 383--398, 2012.
   
 \bibitem[13]{TouchDevelop:Li}
 Sihan Li, Tao Xie, and Nikolai Tillmann.
-\newblock A comprehensive field study of end-user programming on mobile
-  devices.
+\newblock A Comprehensive Field Study of End-User Programming on Mobile
+  Devices.
 \newblock In \emph{Visual Languages and Human-Centric Computing (VL/HCC), 2013
   IEEE Symposium on}, pages 43--50. IEEE, 2013.
+ 
+\balance
   
 \bibitem[14]{pandas}
-Python data analysis library, 2015.
+Python Data Analysis Library, 2015.
 \newblock URL \url{http://pandas.pydata.org/}.
 \newblock last accessed 5-May-2015.
 
 \bibitem[15]{course_in_box}
-Course in a box.
+Course in a Box.
 \newblock URL \url{http://www.appinventor.org/content/CourseInABox/Intro}.
 \newblock This is a series of video tutorials. Online; last accessed
   29-April-2015.
 
 \bibitem[16]{imagnity}
-App inventor tutorials.
+App Inventor Tutorials.
 \newblock URL \url{http://www.imagnity.com/tutorial-index}.
 \newblock Series of tutorials with pictographic explanations. Online; last
   accessed 04-May-2015.
@@ -656,47 +662,47 @@ Lego Group.
  
 \bibitem[18]{rubric:sherman}
 Mark Sherman, Fred Martin, Larry Baldwin, and James DeFlippo.
-\newblock App inventor project rubric - computational thinking through mobile
-  computing.
+\newblock App Inventor Project Rubric - Computational Thinking through Mobile
+  Computing.
 \newblock URL
   \url{https://nsfmobilect.files.wordpress.com/2014/09/mobile-ct-rubric-for-app-inventor-2014-09-01.pdf}.
 
 \bibitem[19]{measure:huff}
 Sid~L Huff, Malcolm~C Munro, and Barbara Marcolin.
-\newblock Modelling and measuring end user sophistication.
+\newblock Modelling and Measuring End User Sophistication.
 \newblock In \emph{Proceedings of the 1992 ACM SIGCPR conference on Computer
   personnel research}, pages 1--10, 1992.
 
 \bibitem[20]{checklist:repenning}
-Alexander Repenning, David Webb, and Andri Ioannidou.
-\newblock Scalable game design and the development of a checklist for getting
-  computational thinking into public schools.
+Alexander Repenning, David Webb, and Andri Loannidou.
+\newblock Scalable Game Design and the Development of a Checklist for Getting
+  Computational Thinking into Public Schools.
 \newblock In \emph{Proceedings of the 41st ACM technical symposium on Computer
   science education}, pages 265--269. ACM, 2010.
 
 \bibitem[21]{concept_cards}
-M.~A. Inventor.
-\newblock App inventor concept cards.
+MIT App Inventor.
+\newblock App Inventor Concept Cards.
 \newblock URL
   \url{http://appinventor.mit.edu/explore/resources/beginner-app-inventor-concept-cards.html}.
-\newblock ast accessed 15-May-2015.
+\newblock last accessed 15-May-2015.
 
 \bibitem[22]{ai:Forum}
-Mit app inventor discussion forum, 2015{\natexlab{a}}.
+MIT App Inventor Discussion Forum, 2015{\natexlab{a}}.
 \newblock URL
   \url{https://groups.google.com/forum/#!categories
 /mitappinventortest/specific-programming-issues}.
 \newblock last accessed 01-Aug-2015.
 
 \bibitem[23]{ai:Gallery}
-Mit app inventor blog, 2015{\natexlab{b}}.
+MIT App Inventor Blog, 2015{\natexlab{b}}.
 \newblock URL
   \url{http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html}.
 \newblock last accessed 01-Aug-2015.
 
 \bibitem[24]{paper:sherman}
 Mark Sherman and Fred Martin.
-\newblock The assessment of mobile computational thinking.
+\newblock The Assessment of Mobile Computational Thinking.
 \newblock \emph{Journal of Computing Sciences in Colleges}, 30\penalty0
   (6):\penalty0 53--59, 2015.
 

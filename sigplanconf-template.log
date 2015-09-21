@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 SEP 2015 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 SEP 2015 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -151,22 +151,26 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box30
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen116
+)
 (./sigplanconf-template.aux)
 \openout1 = `sigplanconf-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 44.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -174,13 +178,13 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
-\scratchdimen=\dimen116
+\scratchdimen=\dimen117
 \scratchbox=\box31
 \nofMPsegments=\count107
 \nofMParguments=\count108
 \everyMPshowfont=\toks24
 \MPscratchCnt=\count109
-\MPscratchDim=\dimen117
+\MPscratchDim=\dimen118
 \MPnumerator=\count110
 \makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks25
@@ -233,30 +237,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 97.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 94.
+LaTeX Font Info:    No file OMScmss.fd. on input line 97.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 94.
+(Font)              for symbol `textbraceleft' on input line 97.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 94.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 108.
 
-Underfull \hbox (badness 2080) in paragraph at lines 108--109
+Underfull \hbox (badness 2080) in paragraph at lines 110--111
  \OT1/ptm/b/it/9 Key-words \OT1/ptm/m/n/9 Mo-bile Com-put-ing, Com-puter Sci-en
 ce Ed-u-ca-tion,
  []
@@ -264,7 +262,7 @@ ce Ed-u-ca-tion,
 <fig1.png, id=1, 617.30624pt x 246.9225pt>
 File: fig1.png Graphic file (type png)
  <use fig1.png>
-Package pdftex.def Info: fig1.png used on input line 116.
+Package pdftex.def Info: fig1.png used on input line 118.
 (pdftex.def)             Requested size: 227.99927pt x 91.19786pt.
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -272,244 +270,248 @@ Package pdftex.def Info: fig1.png used on input line 116.
 Non-PDF special ignored!
 
  <./fig1.png>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 142.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<simple_blocks.png, id=16, 410.53375pt x 145.54375pt>
+<simple_blocks.png, id=15, 410.53375pt x 145.54375pt>
 File: simple_blocks.png Graphic file (type png)
  <use simple_blocks.png>
-Package pdftex.def Info: simple_blocks.png used on input line 167.
+Package pdftex.def Info: simple_blocks.png used on input line 169.
 (pdftex.def)             Requested size: 132.00073pt x 46.79703pt.
 
-<palette.png, id=17, 245.91875pt x 360.34625pt>
+[2 <./simple_blocks.png>] <palette.png, id=21, 245.91875pt x 360.34625pt>
 File: palette.png Graphic file (type png)
- <use palette.png>
-Package pdftex.def Info: palette.png used on input line 190.
+
+<use palette.png>
+Package pdftex.def Info: palette.png used on input line 192.
 (pdftex.def)             Requested size: 95.99854pt x 140.66643pt.
- [2 <./simple_blocks.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []\OT1/ptm/m/n/9 Group
  []
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 217.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []\OT1/ptm/m/n/9 Description of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 []\OT1/ptm/m/n/9 Example
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 220--221
+Underfull \hbox (badness 3000) in paragraph at lines 224--225
 []\OT1/ptm/m/n/9 Basic user in-ter-
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 220--221
+Underfull \hbox (badness 2707) in paragraph at lines 224--225
 \OT1/ptm/m/n/9 face func-tion-al-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 \OMS/cmsy/m/n/9 f\OT1/ptm/m/n/9 Splits bill
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 \OT1/ptm/m/n/9 amongst cer-tain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
 []\OT1/ptm/m/n/9 Only
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
 \OT1/ptm/m/n/9 User
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
 \OT1/ptm/m/n/9 In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
 \OT1/ptm/m/n/9 Com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 []\OT1/ptm/m/n/9 Button, Im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \OT1/ptm/m/n/9 age, La-bel,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \OT1/ptm/m/n/9 No-ti-fier,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []\OT1/ptm/m/n/9 Playing/recording
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 au-dio or video
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 of politi-cian to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []\OT1/ptm/m/n/9 At least
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 1 me-dia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 po-nent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 (ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 \OT1/ptm/m/n/9 clud-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 []\OT1/ptm/m/n/9 Camera,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 \OT1/ptm/m/n/9 Text-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 \OT1/ptm/m/n/9 ToSpeech,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 \OT1/ptm/m/n/9 Video-Player,
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 228--229
+Underfull \hbox (badness 6893) in paragraph at lines 232--233
 \OT1/ptm/m/n/9 vas for draw-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 \OT1/ptm/m/n/9 draw-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 \OT1/ptm/m/n/9 com-po-
  []
 
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 []\OT1/ptm/m/n/9 Response to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 \OT1/ptm/m/n/9 phones' sen-sors
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 234--235
+Underfull \hbox (badness 1867) in paragraph at lines 238--239
 \OMS/cmsy/m/n/9 f\OT1/ptm/m/n/9 Shake phone to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 []\OT1/ptm/m/n/9 At least
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/9 1 sen-sor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/9 com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/9 po-nent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/9 (ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/9 clud-ing
  []
 
 
-Overfull \hbox (4.974pt too wide) in paragraph at lines 236--237
+Overfull \hbox (4.974pt too wide) in paragraph at lines 240--241
 []\OT1/ptm/m/n/9 Accelerometer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 \OT1/ptm/m/n/9 Sen-sor, Lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 \OT1/ptm/m/n/9 ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 \OT1/ptm/m/n/9 Sen-sor,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 \OT1/ptm/m/n/9 NearField
  []
 
@@ -517,199 +519,197 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 []\OT1/ptm/m/n/9 Communication
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 241--242
+Underfull \hbox (badness 1102) in paragraph at lines 245--246
 \OMS/cmsy/m/n/9 f\OT1/ptm/m/n/9 Click on a per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 []\OT1/ptm/m/n/9 At least
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 \OT1/ptm/m/n/9 1 so-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 \OT1/ptm/m/n/9 com-po-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-[]\OT1/ptm/m/n/9 Texting,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-\OT1/ptm/m/n/9 Twit-ter,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
+[]\OT1/ptm/m/n/9 Texting,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+\OT1/ptm/m/n/9 Twit-ter,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 []\OT1/ptm/m/n/9 Saving in-for-ma-
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 247--248
+Underfull \hbox (badness 3780) in paragraph at lines 251--252
 \OT1/ptm/m/n/9 tion \OMS/cmsy/m/n/9 f\OT1/ptm/m/n/9 Add items
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 []\OT1/ptm/m/n/9 At least
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 248--249
+Underfull \hbox (badness 1400) in paragraph at lines 252--253
 \OT1/ptm/m/n/9 1 stor-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 \OT1/ptm/m/n/9 com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 []\OT1/ptm/m/n/9 TinyDB,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/ptm/m/n/9 Fu-sionta-bles
  []
 
 
-Overfull \hbox (3.0792pt too wide) in paragraph at lines 252--253
+Overfull \hbox (3.0792pt too wide) in paragraph at lines 256--257
 []\OT1/ptm/m/n/9 Connectivity| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 []\OT1/ptm/m/n/9 Networking with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 \OT1/ptm/m/n/9 other apps and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 []\OT1/ptm/m/n/9 At least
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 \OT1/ptm/m/n/9 1 con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 \OT1/ptm/m/n/9 nec-tiv-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 \OT1/ptm/m/n/9 com-po-
  []
 
 
-Overfull \hbox (7.1609pt too wide) in paragraph at lines 255--256
+Overfull \hbox (7.1609pt too wide) in paragraph at lines 259--260
 []\OT1/ptm/m/n/9 ActivityStarter,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 \OT1/ptm/m/n/9 Blue-tooth-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 []\OT1/ptm/m/n/9 Control Lego
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OT1/ptm/m/n/9 Mind-storm kits
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OMS/cmsy/m/n/9 f\OT1/ptm/m/n/9 Remote con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OT1/ptm/m/n/9 trol for Lego
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OT1/ptm/m/n/9 Mind-storm NXT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 []\OT1/ptm/m/n/9 NxtDrive,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 \OT1/ptm/m/n/9 Nxt-Light-
  []
 
 
-Overfull \hbox (2.39575pt too wide) in paragraph at lines 214--265
+Overfull \hbox (2.39575pt too wide) in paragraph at lines 218--269
  [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./palette.png>] <pie_group.png, id=27, 813.0375pt x 685.56125pt>
+[3 <./palette.png>] <pie_group.png, id=26, 813.0375pt x 685.56125pt>
 File: pie_group.png Graphic file (type png)
- <use pie_group.png>
-Package pdftex.def Info: pie_group.png used on input line 290.
-(pdftex.def)             Requested size: 215.99854pt x 182.12268pt.
 
-<boxplot.png, id=28, 685.56125pt x 515.9275pt>
+<use pie_group.png>
+Package pdftex.def Info: pie_group.png used on input line 294.
+(pdftex.def)             Requested size: 215.99854pt x 182.12268pt.
+ <boxplot.png, id=27, 685.56125pt x 515.9275pt>
 File: boxplot.png Graphic file (type png)
- <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 308.
+
+<use boxplot.png>
+Package pdftex.def Info: boxplot.png used on input line 312.
 (pdftex.def)             Requested size: 240.0pt x 180.61668pt.
- [4 <./pie_group.png> <./boxplot.png>] <component_blocks.png, id=34, 690.58pt x
- 189.70876pt>
+
+Underfull \vbox (badness 6675) has occurred while \output is active []
+
+ [4 <./pie_group.png> <./boxplot.png>]
+<component_blocks.png, id=33, 690.58pt x 189.70876pt>
 File: component_blocks.png Graphic file (type png)
 
 <use component_blocks.png>
-Package pdftex.def Info: component_blocks.png used on input line 415.
+Package pdftex.def Info: component_blocks.png used on input line 419.
 (pdftex.def)             Requested size: 192.00073pt x 52.74176pt.
 
-<usability_score.png, id=35, 508.90125pt x 387.4475pt>
+<usability_score.png, id=34, 508.90125pt x 387.4475pt>
 File: usability_score.png Graphic file (type png)
 
 <use usability_score.png>
-Package pdftex.def Info: usability_score.png used on input line 430.
+Package pdftex.def Info: usability_score.png used on input line 434.
 (pdftex.def)             Requested size: 240.0pt x 182.7211pt.
  [5 <./component_blocks.png> <./usability_score.png>]
-<ai_tutorials.png, id=41, 840.13875pt x 1023.825pt>
+<ai_tutorials.png, id=40, 840.13875pt x 1023.825pt>
 File: ai_tutorials.png Graphic file (type png)
  <use ai_tutorials.png>
-Package pdftex.def Info: ai_tutorials.png used on input line 451.
+Package pdftex.def Info: ai_tutorials.png used on input line 455.
 (pdftex.def)             Requested size: 240.0pt x 292.4649pt.
 
-./sigplanconf-template.tex:485: Missing number, treated as zero.
+./sigplanconf-template.tex:491: Missing number, treated as zero.
 <to be read again> 
                    G
 <argument> G
@@ -718,217 +718,197 @@ Package pdftex.def Info: ai_tutorials.png used on input line 451.
                                           \@tempdima \@tempcnta \ht \@arstru...
 <template> \unskip \hfil 
                          }\hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.485 &
+l.491 &
        All& 683 \{9\} & 95 \{10 \} & 54 \{7\} & 832 \{26\}\\
 ? 
-./sigplanconf-template.tex:485: Missing number, treated as zero.
+./sigplanconf-template.tex:491: Missing number, treated as zero.
 <to be read again> 
                    \unskip 
 \@xmultirow ...box 0\vtop to \@tempdima {\hsize #3
                                                   \@parboxrestore \vfill \mu...
 <template> \unskip \hfil 
                          }\hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.485 &
+l.491 &
        All& 683 \{9\} & 95 \{10 \} & 54 \{7\} & 832 \{26\}\\
 ? 
-./sigplanconf-template.tex:485: Illegal unit of measure (pt inserted).
+./sigplanconf-template.tex:491: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
 \@xmultirow ...box 0\vtop to \@tempdima {\hsize #3
                                                   \@parboxrestore \vfill \mu...
 <template> \unskip \hfil 
                          }\hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.485 &
+l.491 &
        All& 683 \{9\} & 95 \{10 \} & 54 \{7\} & 832 \{26\}\\
 ? 
 
-Overfull \vbox (6.0pt too high) detected at line 485
+Overfull \vbox (6.0pt too high) detected at line 491
  []
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 485.
-[6 <./ai_tutorials.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 491.
 
+Underfull \vbox (badness 2261) has occurred while \output is active []
 
-./sigplanconf-template.tex:552: Undefined control sequence.
-l.552 \newblock URL \url
+ [6 <./ai_tutorials.png>]
+./sigplanconf-template.tex:556: Undefined control sequence.
+l.556 \newblock URL \url
                         {http://appinventor.mit.edu/explore}.
 ? 
-./sigplanconf-template.tex:557: Undefined control sequence.
-l.557 \newblock URL \url
+./sigplanconf-template.tex:561: Undefined control sequence.
+l.561 \newblock URL \url
                         {https://developers.google.com/blockly/}.
 ? 
-./sigplanconf-template.tex:566: Undefined control sequence.
-l.566 \newblock URL \url
+./sigplanconf-template.tex:570: Undefined control sequence.
+l.570 \newblock URL \url
                         {http://dx.doi.org/10.1109/vlhcc.2014.6883034}.
 ? 
-./sigplanconf-template.tex:572: Undefined control sequence.
-l.572 \newblock URL \url
+./sigplanconf-template.tex:576: Undefined control sequence.
+l.576 \newblock URL \url
                         {http://cs.wellesley.edu/~tinkerblocks/RIC14-talk.pdf}.
 
 ? 
-./sigplanconf-template.tex:582: Undefined control sequence.
-l.582 \newblock URL \url
+./sigplanconf-template.tex:586: Undefined control sequence.
+l.586 \newblock URL \url
                         {http://dx.doi.org/10.1145/2721914.2721935}.
 ? 
-
-Underfull \hbox (badness 1360) in paragraph at lines 577--584
-\OT1/ptm/m/n/8 moc-ra-tiz-ing com-put-ing with app in-ven-tor.  \OT1/ptm/m/it/8
- SIG-MO-BILE 
- []
-
-./sigplanconf-template.tex:593: Undefined control sequence.
-l.593 \newblock URL \url
+./sigplanconf-template.tex:597: Undefined control sequence.
+l.597 \newblock URL \url
                         {http://appinventor.mit.edu/explore/ai2/tutorialsd41...
 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--595
-[]\OT1/ptm/m/n/8 Tutorials for app in-ven-tor 2, 2015.  URL 
+Underfull \hbox (badness 10000) in paragraph at lines 596--599
+[]\OT1/ptm/m/n/8 Tutorials for App In-ven-tor 2, 2015.  URL 
  []
 
-./sigplanconf-template.tex:605: Undefined control sequence.
-l.605 \newblock URL \url
+./sigplanconf-template.tex:609: Undefined control sequence.
+l.609 \newblock URL \url
                         {http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poste...
 
 ? 
 
-Underfull \hbox (badness 1215) in paragraph at lines 603--608
-[]\OT1/ptm/m/n/8 Johanna Ok-er-lund and Franklyn Tur-bak.  A pre-lim-i-nary 
+Underfull \hbox (badness 1178) in paragraph at lines 607--612
+[]\OT1/ptm/m/n/8 Johanna Ok-er-lund and Franklyn Tur-bak.  A Pre-lim-i-nary 
  []
 
-
-Underfull \hbox (badness 1418) in paragraph at lines 603--608
-\OT1/ptm/m/n/8 anal-y-sis of app in-ven-tor blocks pro-grams, 2013.  URL 
- []
-
-./sigplanconf-template.tex:611: Undefined control sequence.
-l.611 \newblock URL \url
+./sigplanconf-template.tex:615: Undefined control sequence.
+l.615 \newblock URL \url
                         {http://scratch.mit.edu}.
 ? 
-./sigplanconf-template.tex:637: Undefined control sequence.
-l.637 \newblock URL \url
+[7]
+./sigplanconf-template.tex:643: Undefined control sequence.
+l.643 \newblock URL \url
                         {http://pandas.pydata.org/}.
 ? 
-./sigplanconf-template.tex:642: Undefined control sequence.
-l.642 \newblock URL \url
+./sigplanconf-template.tex:648: Undefined control sequence.
+l.648 \newblock URL \url
                         {http://www.appinventor.org/content/CourseInABox/Int...
 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 641--645
-[]\OT1/ptm/m/n/8 Course in a box.  URL 
+Underfull \hbox (badness 10000) in paragraph at lines 647--651
+[]\OT1/ptm/m/n/8 Course in a Box.  URL 
  []
 
-./sigplanconf-template.tex:648: Undefined control sequence.
-l.648 \newblock URL \url
+./sigplanconf-template.tex:654: Undefined control sequence.
+l.654 \newblock URL \url
                         {http://www.imagnity.com/tutorial-index}.
 ? 
-./sigplanconf-template.tex:655: Undefined control sequence.
-l.655   \url
+./sigplanconf-template.tex:661: Undefined control sequence.
+l.661   \url
             {http://www.lego.com/en-us/mindstorms/?domainredir=mindstorms.le...
 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+Underfull \hbox (badness 10000) in paragraph at lines 659--662
 []\OT1/ptm/m/n/8 Lego Group.  URL http://www.lego.com/en- 
  []
 
-[7]
-./sigplanconf-template.tex:662: Undefined control sequence.
-l.662   \url
+./sigplanconf-template.tex:668: Undefined control sequence.
+l.668   \url
             {https://nsfmobilect.files.wordpress.com/2014/09/mobile-ct-rubri...
 
 ? 
 
-Underfull \hbox (badness 1460) in paragraph at lines 658--663
+Underfull \hbox (badness 1460) in paragraph at lines 664--669
 []\OT1/ptm/m/n/8 Mark Sher-man, Fred Mar-tin, Larry Bald-win, and James 
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 658--663
-\OT1/ptm/m/n/8 De-Flippo.  App in-ven-tor project rubric - com-pu- 
+Underfull \hbox (badness 3396) in paragraph at lines 664--669
+\OT1/ptm/m/n/8 De-Flippo.  App In-ven-tor Project Rubric - Com-pu- 
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 658--663
-\OT1/ptm/m/n/8 ta-tional think-ing through mo-bile com-put-ing.  URL 
- []
-
-./sigplanconf-template.tex:681: Undefined control sequence.
-l.681   \url
-            {http://appinventor.mit.edu/explore/resources/beginner-app-inven...
-
-? 
-
-Underfull \hbox (badness 1838) in paragraph at lines 678--683
-[]\OT1/ptm/m/n/8 M. A. In-ven-tor.  App in-ven-tor con-cept cards.  URL 
+Underfull \hbox (badness 2846) in paragraph at lines 664--669
+\OT1/ptm/m/n/8 ta-tional Think-ing through Mo-bile Com-put-ing.  URL 
  []
 
 ./sigplanconf-template.tex:687: Undefined control sequence.
 l.687   \url
+            {http://appinventor.mit.edu/explore/resources/beginner-app-inven...
+
+? 
+./sigplanconf-template.tex:693: Undefined control sequence.
+l.693   \url
             {https://groups.google.com/forum/#!categories
 ? 
-./sigplanconf-template.tex:687: You can't use `macro parameter character #' in 
+./sigplanconf-template.tex:693: You can't use `macro parameter character #' in 
 horizontal mode.
-l.687   \url{https://groups.google.com/forum/#
+l.693   \url{https://groups.google.com/forum/#
                                               !categories
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--690
-[]\OT1/ptm/m/n/8 Mit app in-ven-tor dis-cus-sion fo-rum, 2015. 
+Underfull \hbox (badness 10000) in paragraph at lines 691--696
+[]\OT1/ptm/m/n/8 MIT App In-ven-tor Dis-cus-sion Fo-rum, 2015. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--690
+Underfull \hbox (badness 10000) in paragraph at lines 691--696
 \OT1/ptm/m/n/8 URL https://groups.google.com/forum/!categories 
  []
 
-./sigplanconf-template.tex:694: Undefined control sequence.
-l.694   \url
+./sigplanconf-template.tex:700: Undefined control sequence.
+l.700   \url
             {http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html}.
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--696
-[]\OT1/ptm/m/n/8 Mit app in-ven-tor blog, 2015.  URL 
+Underfull \hbox (badness 10000) in paragraph at lines 698--702
+[]\OT1/ptm/m/n/8 MIT App In-ven-tor Blog, 2015.  URL 
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 692--696
+Underfull \hbox (badness 1052) in paragraph at lines 698--702
 \OT1/ptm/m/n/8 http://appinventor.mit.edu/explore/blogs/josh/2015/05/18.html. 
  []
 
-[8
-
-] (./sigplanconf-template.aux)
+[8] (./sigplanconf-template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2882 strings out of 493117
- 38912 string characters out of 6135433
- 115666 words of memory out of 5000000
- 6292 multiletter control sequences out of 15000+600000
- 25476 words of font info for 49 fonts, out of 8000000 for 9000
+ 2894 strings out of 493117
+ 39205 string characters out of 6135433
+ 116052 words of memory out of 5000000
+ 6302 multiletter control sequences out of 15000+600000
+ 24440 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,30p,1180b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,30p,1180b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on sigplanconf-template.pdf (8 pages, 455930 bytes).
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on sigplanconf-template.pdf (8 pages, 444570 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

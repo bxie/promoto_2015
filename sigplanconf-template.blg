@@ -3,13 +3,12 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sigplanconf-template.aux
 The style file: abbrvnat.bst
 I found no \bibdata command---while reading file sigplanconf-template.aux
-Warning--I didn't find a database entry for "ai_home"
-Warning--I didn't find a database entry for "blockly"
 Warning--I didn't find a database entry for "naming:turbak"
 Warning--I didn't find a database entry for "thinking:turbak"
 Warning--I didn't find a database entry for "democratizing:wolber"
 Warning--I didn't find a database entry for "situated:gershman"
 Warning--I didn't find a database entry for "ai_tutorials"
+Warning--I didn't find a database entry for "ai_home"
 Warning--I didn't find a database entry for "CT:Grover"
 Warning--I didn't find a database entry for "blocks:okerlund"
 Warning--I didn't find a database entry for "Scratch:Home"
@@ -29,7 +28,7 @@ Warning--I didn't find a database entry for "ai:Gallery"
 Warning--I didn't find a database entry for "paper:sherman"
 You've used 0 entries,
             2773 wiz_defined-function locations,
-            622 strings with 4944 characters,
+            621 strings with 4937 characters,
 and the built_in function-call counts, 33 in all, are:
 = -- 0
 > -- 0
